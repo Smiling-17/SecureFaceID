@@ -1,0 +1,22 @@
+paths:
+  model_face_root: ./models
+  file_vectors: ./data/face_vectors.npy
+  file_names: ./data/face_names.json
+
+model:
+  model_name: 'buffalo_s' # large version: 'buffalo_l'
+  det_size: 640
+
+enroll_user:
+  yaw_thresh_left: 0.5
+  yaw_thresh_right: 1.5
+
+similarity_threshold: 0.6
+scale_factor: 0.5
+
+liveness:
+  model_liveness_path: ./models/MiniFASNetV2.onnx
+  input_size: 80
+  liveness_threshold: 0.6
+  need_frames: 10
+ 

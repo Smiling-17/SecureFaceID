@@ -1,0 +1,120 @@
+# ========================================
+# SecureFaceID - Git Ignore Configuration
+# ========================================
+
+# -----------------
+# Python
+# -----------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# -----------------
+# Virtual Environments
+# -----------------
+venv/
+env/
+ENV/
+.venv/
+.conda/
+
+# -----------------
+# IDE / Editor
+# -----------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# -----------------
+# OS Generated
+# -----------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# -----------------
+# Jupyter Notebook
+# -----------------
+.ipynb_checkpoints/
+*.ipynb
+
+# -----------------
+# Logs & Debug
+# -----------------
+*.log
+logs/
+debug/
+
+# -----------------
+# Model Files (Large files)
+# -----------------
+# These files are too large for GitHub (>100MB)
+models/models/buffalo_l.zip
+models/models/buffalo_s.zip
+models/models/buffalo_l/
+
+# Uncomment below lines if you don't want to track other model files
+# models/*.onnx
+# models/models/buffalo_s/
+
+# -----------------
+# Database Files (Optional)
+# -----------------
+# Uncomment below lines if you don't want to share user data
+# data/face_vectors.npy
+# data/face_names.json
+
+# -----------------
+# Environment & Secrets
+# -----------------
+.env
+.env.local
+.env.*.local
+*.pem
+secrets/
+
+# -----------------
+# Test & Coverage
+# -----------------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# -----------------
+# Build & Distribution
+# -----------------
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
