@@ -20,16 +20,16 @@
 ### Real-time Face Recognition
 > Watch how the system detects and recognizes faces in real-time with anti-spoofing protection.
 
-https://github.com/Smiling-17/SecureFaceID/assets/demo_dectect.mp4
+https://github.com/Smiling-17/SecureFaceID/assets/demo_dectect.gif
 
-<video src="assets/demo_dectect.mp4" controls width="100%"></video>
+<video src="assets/demo_dectect.gif" controls width="100%"></video>
 
 ### User Enrollment Process
 > See the 3-step enrollment process: straight face → left turn → right turn
 
-https://github.com/Smiling-17/SecureFaceID/assets/demo_enroll.mp4
+https://github.com/Smiling-17/SecureFaceID/assets/demo_enroll.gif
 
-<video src="assets/demo_enroll.mp4" controls width="100%"></video>
+<video src="assets/demo_enroll.gif" controls width="100%"></video>
 
 ### Database Management Interface
 > Modern dark-themed admin panel for managing registered users
